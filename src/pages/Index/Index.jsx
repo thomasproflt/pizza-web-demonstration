@@ -101,7 +101,7 @@ const Index = () => {
             <Navbar />
 
             <div className="min-h-screen">
-                <section className="flex flex-col min-h-screen bg-[#1D1412] max-w-full px-5 md:px-[7.10rem] relative overflow-hidden [clip-path:polygon(0_0,100%_0,100%_90%,0_100%)]">
+                <section className="flex flex-col min-h-screen bg-[#1D1412] max-w-full h-[75.10rem] md:h-0 px-5 md:px-[7.10rem] relative overflow-hidden [clip-path:polygon(0_0,100%_0,100%_90%,0_100%)]">
 
                     <motion.div
                         variants={catalogContainer}
@@ -124,7 +124,7 @@ const Index = () => {
                         </motion.div>
                     </motion.div>
 
-                    <div className="relative flex flex-col top-[12.20rem] items-start justify-start">
+                    <div className="relative flex flex-col top-[22.20rem] md:top-[12.20rem] items-start justify-start">
                         <motion.h1
                             variants={textLeft}
                             initial="hidden"
@@ -274,13 +274,13 @@ const Index = () => {
                         </motion.div>
                     </div>
 
-                    <div className="relative flex mt-60">
+                    <div className="relative flex mt-[22.10rem] md:mt-60">
                         <PlaceOrder />
                     </div>
 
                 </section>
 
-                <section className="min-h-screen text-black bg-[#1D1412] max-w-full relative overflow-hidden py-[30.10rem]">
+                <section className="min-h-screen text-black bg-[#1D1412] max-w-full relative overflow-hidden py-[0.10rem] md:py-[30.10rem]">
 
                     {/* CONTAINER */}
                     <div className="relative flex flex-col md:flex-row items-center justify-between px-10 md:px-[9.10rem]">
